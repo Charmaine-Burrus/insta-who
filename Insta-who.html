@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Insta-who?</title>
+  <link rel="stylesheet" href="instawho.css">
+  <script type="text/javascript" src="instawho.js"></script>
+</head>
+
+<body>
+
+<h1>
+  Insta-who?
+</h1>
+
+<h3>
+  Quickly closing in on the photo-filter giant!
+</h3>
+
+<canvas id="canvas1">
+</canvas>
+
+<p id="text1">
+  1. Upload Your Pic!
+  <input type="file" id="upload" accept="image/*" multiple="false" onchange="doUpload()">
+</p>
+
+<p id="text2">
+  2. Choose Your Filter(s)!
+</p>
+
+<div id="buttonRow">
+  <input type="button" class="button" id="grayscale" value="Grayscale" onclick="makeGray()">
+  <input type="button" class="button" id="redhue" value="Red Hue" onclick="makeRed()">
+  <input type="button" class="button" id="trans" value="Transparent" onclick="makeTrans()">
+  <input type="button" class="button" id="fade" value="Fade" onclick="makeFaded()">
+  <input type="button" class="button" id="checker" value="Checkered" onclick="makeChecker()">
+  <input type="button" class="button" id="blur" value="Blur" onclick="doBlur()">
+  <input type="button" class="button" id="magic" value="Magic!" onclick="makeMagic()">
+</div>
+
+<p id="text3">
+  3. Add a border!
+  <input type="range" min="5" max="100" value="5" id="sldr" oninput="addBorder()">
+</p>
+
+<p id="text4">
+  4. Repeat!
+  <input type="button" class="button" id="reset" value="Reset Image" onclick="doReset()">
+</p>
+
+</body>
+
+</html>
+  

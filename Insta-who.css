@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  color: lightgreen;
+  font: 20px Georgia;
+  max-width: 750px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h3 {
+  text-align: center;
+  color: yellow;
+}
+
+#canvas1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  background-color: white;
+  border: 5px double;
+  border-color: violet blue green yellow;
+}
+
+#text1 {
+	text-align: center;
+	color: lightgreen;
+}
+
+#text2 {
+	text-align: center;
+	color: blue;
+}
+
+#text3 {
+	text-align: center;
+	color: lightblue;
+}
+
+#text4 {
+	text-align: center;
+	color: violet;
+}
+
+#buttonRow {
+	margin: auto;
+	text-align: center;
+}
+
+.button {
+  font-size: 16px;
+}
+
+#grayscale {
+  background-color: gray;
+}
+
+#redhue {
+  background-color: red;
+}
+
+#trans {
+  background-color: light-gray;
+  color: gray;
+}
+
+#fade {
+  border-color: #1a1a1a;
+  background-color: #333333;
+  color: #595959;
+}
+
+#magic {
+  background-color: black;
+  color: white;
+  border-color: violet blue green yellow;
+}
+
+#reset {
+  color: gray;
+}
