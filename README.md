@@ -6,19 +6,19 @@ Designed with HTML, CSS, and Javascript. Uses event-handling.
 #### Mobile View
 ![](screenshots/instawho-mobile.PNG)
 
-Details:
+Details: Responsive web design resizes according to screen.
 
 #### Home Screen
 ![](screenshots/instawho-home.PNG)
 
-Details:
+Details: Options to upload any image from local files, apply multiple filters, and a border. Reset image to revert to original.
 
 #### Filter
-![](screenshots/instawho-blur.PNG)
+![](screenshots/instawho-blur-filter.PNG)
 
-Details:
+Details: Random pixels are traded with those nearby to create blur.
 
 #### Filter & Border
 ![](screenshots/instawho-transparent-border.PNG)
 
-Details:
+Details: Alpha values are manipulated to cause a faded image. Border is adjusted according to user input via slider.
