@@ -3,5 +3,22 @@ Web page that allows users to upload images and apply unique image filters as we
 Designed with HTML, CSS, and Javascript. Uses event-handling.
 
 ## Take a Look!
+#### Mobile View
+![](screenshots/instawho-mobile.PNG)
+
+Details:
+
 #### Home Screen
-![](instawho-home.png)
+![](screenshots/instawho-home.PNG)
+
+Details:
+
+#### Filter
+![](screenshots/instawho-blur.PNG)
+
+Details:
+
+#### Filter & Border
+![](screenshots/instawho-transparent-border.PNG)
+
+Details:
