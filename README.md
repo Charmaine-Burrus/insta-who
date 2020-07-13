@@ -11,7 +11,8 @@ Details: Responsive web design resizes according to screen.
 #### Home Screen
 ![](screenshots/instawho-home.PNG)
 
-Details: Options to upload any image from local files, apply multiple filters, and a border. Reset image to revert to original.
+Details: Options to upload image, apply multiple filters, and a border. Reset image to revert to original.
+Event handlers update canvas according to user input.
 
 #### Filter
 ![](screenshots/instawho-blur-filter.PNG)
@@ -22,3 +23,9 @@ Details: Random pixels are traded with those nearby to create blur.
 ![](screenshots/instawho-transparent-border.PNG)
 
 Details: Alpha values are manipulated to cause a faded image. Border is adjusted according to user input via slider.
+
+#### Multiple Filters
+![](screenshots/instawho-multiple-filters.PNG)
+
+Details: Multiple filters can be applied at the same time. This is "Fade" and "Magic". 
+Both of these filters manipulate pixels according to x,y coordinates - Fade modifies alpha values and Magic modifies RGB values.
