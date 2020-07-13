@@ -4,4 +4,4 @@ Designed with HTML, CSS, and Javascript. Uses event-handling.
 
 ## Take a Look!
 #### Home Screen
-![](screenshots/home.jpg)
+![](instawho-home.png)
