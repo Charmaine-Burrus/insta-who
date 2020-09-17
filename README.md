@@ -22,7 +22,7 @@ Details: Random pixels are traded with those nearby to create blur.
 #### Filter & Border
 ![](screenshots/instawho-transparent-border.PNG)
 
-Details: Alpha values are manipulated to cause a faded image. Border is adjusted according to user input via slider.
+Details: Alpha values are manipulated to cause a more transparent image. Border is adjusted according to user input via slider.
 
 #### Multiple Filters
 ![](screenshots/instawho-multiple-filters.PNG)
